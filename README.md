@@ -5,6 +5,10 @@ Python analysis of real **Duitku** digital wallet top-up transactions.
 This project extracts behavioral insights, builds customer cohorts, models LTV, and forecasts monthly revenue.  
 An end-to-end FinTech analytics workflow built from raw transactions to business-ready insights.
 
+**Dataset Coverage:**  
+Transactions in this dataset span **July 18, 2024 → January 24, 2025**, representing ~6 months of real digital wallet top-up activity. This rolling-window time range mirrors how FinTech companies typically analyze recent user behavior, revenue trends, and cohort performance.
+
+
 ---
 
 <br>

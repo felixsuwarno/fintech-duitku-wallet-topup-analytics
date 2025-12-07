@@ -35,7 +35,10 @@ The original dataset can be downloaded here:
 ---
 ## 📊 Key Fields (Compact Data Dictionary)
 
-These are the core fields used in cohort analysis, LTV modeling, and revenue forecasting:
+The full data dictionary can be seen here :
+[Full Data Dictionary](docs/data_dictionary_full.md)
+
+The followings are the core fields used in cohort analysis, LTV modeling, and revenue forecasting:
 
 | Field | Description |
 |-------|-------------|

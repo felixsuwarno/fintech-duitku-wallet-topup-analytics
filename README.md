@@ -7,6 +7,8 @@ A Python-powered analysis of real digital wallet transaction data from **Duitku*
 
 ---
 
+<br><br>
+
 ## Project Summary
 
 This project analyzes real transaction-level data from a digital wallet system to understand:
@@ -26,6 +28,8 @@ The goal is to support real-world FinTech decision-making with data-driven insig
 
 ---
 
+<br><br>
+
 ## Dataset
 
 The original dataset can be downloaded here:
@@ -33,6 +37,9 @@ The original dataset can be downloaded here:
 - [transactions.xlsx (Zenodo)](https://zenodo.org/records/17092322/files/transactions.xlsx?download=1)
 
 ---
+
+<br><br>
+
 ## 📊 Key Fields (Compact Data Dictionary)
 
 The full data dictionary can be seen here :
@@ -54,5 +61,24 @@ The followings are the core fields used in cohort analysis, LTV modeling, and re
 | **reference_number** | Payment processor transaction ID. |
 | **channel_reference_number** | Reference number from the payment gateway. |
 | **created_at / updated_at** | System timestamps for record creation and updates. |
+
+<br><br>
+
+## 🔧 Derived Date Columns
+
+From the `paying_at` timestamp, two key analytical fields were created to support monthly trends, cohort grouping, and revenue forecasting:
+
+| Column           | Description                                                              |
+|------------------|--------------------------------------------------------------------------|
+| **year_month**   | `YYYY-MM` format used for monthly aggregation and time-series analysis.  |
+| **cohort_month** | The customer’s first transaction month, used to assign cohort groups.    |
+
+These engineered columns do not exist in the raw dataset—they are created to enable cohort analysis, customer value tracking, and month-over-month revenue insights.
+
+
+
+
+
+
 | **type** | Transaction type (`TOP_UP` for all rows). |
 | **journal_type** | Ledger classification (`CREDIT` for all top-ups). |

@@ -40,27 +40,30 @@ The original dataset can be downloaded here:
 
 <br><br>
 
-## 📊 Key Fields (Compact Data Dictionary)
-
 The full data dictionary can be seen here :
 [Full Data Dictionary](docs/data_dictionary_full.md)
 
+---
+
+<br><br>
+
 The followings are the core fields used in cohort analysis, LTV modeling, and revenue forecasting:
 
-| Field | Description |
-|-------|-------------|
-| **id** | Unique internal transaction ID (primary key). |
-| **customer_id** | Unique user identifier for segmentation, cohorts, and LTV. |
-| **net_amount** | Total top-up value credited to the wallet (main revenue driver). |
-| **fee_internal_amount** | Platform’s internal fee revenue per transaction (used for LTV). |
-| **fee_external_amount** | Fee paid to banks/payment partners (reduces net revenue). |
-| **category** | Bank/payment category used (BRI, BNI, Mandiri). |
-| **status** | Transaction status (`00` = successful). |
-| **paying_at** | Timestamp of payment completion (used for `year_month`, cohorts, and forecasting). |
-| **channel** | Top-up channel (`DUITKU` payment gateway). |
-| **reference_number** | Payment processor transaction ID. |
-| **channel_reference_number** | Reference number from the payment gateway. |
-| **created_at / updated_at** | System timestamps for record creation and updates. |
+## 📊 Key Fields (Compact Data Dictionary)
+
+| Field                  | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **id**                 | Unique internal transaction ID (primary key).                              |
+| **customer_id**        | Unique user identifier for segmentation, cohorts, and LTV.                 |
+| **reference_number**   | Payment processor transaction ID for each top-up.                          |
+| **net_amount**         | Total top-up value credited to the wallet (main revenue driver).           |
+| **fee_internal_amount**| Platform’s internal fee revenue per transaction (used for LTV).            |
+| **fee_external_amount**| Fee paid to banks/payment partners (reduces net revenue).                  |
+| **category**           | Bank/payment category used (BRI, BNI, Mandiri).                            |
+| **paying_at**          | Timestamp of payment completion (used for `year_month`, cohorts, forecasts). |
+| **channel**            | Top-up channel (`DUITKU` payment gateway).                                 |
+| **created_at / updated_at** | System timestamps for record creation and updates.                    |
+
 
 <br><br>
 
@@ -79,6 +82,3 @@ These engineered columns do not exist in the raw dataset—they are created to e
 
 
 
-
-| **type** | Transaction type (`TOP_UP` for all rows). |
-| **journal_type** | Ledger classification (`CREDIT` for all top-ups). |

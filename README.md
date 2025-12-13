@@ -233,6 +233,8 @@ These features do not exist in the raw dataset—they were created to support co
 | **Average top-up amount** | Mean of `net_amount` |
 | **Total top-up volume** | Sum of `net_amount` |
 
+<br>
+
 **Customer segmentation (by total top-up volume percentiles)**
 
 | Segment | Definition |
@@ -241,6 +243,8 @@ These features do not exist in the raw dataset—they were created to support co
 | **High Value** | Next 15% |
 | **Mass Market** | Middle 60% |
 | **Long Tail** | Bottom 20% |
+
+<br>
 
 **Visualization encoding**
 

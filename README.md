@@ -275,5 +275,48 @@ These features do not exist in the raw dataset—they were created to support co
 ---
 <br><br>
 
+### 08 — Observed Customer Value  
+**Business question:**  
+*How is customer value distributed across the user base, and how concentrated is platform revenue?*
 
+#### Method
 
+**Observed customer value definition**
+
+| Metric | Definition |
+|------|------------|
+| **Observed LTV** | Sum of `fee_internal_amount` per customer |
+| **Revenue basis** | Internal platform fee only |
+| **Observation window** | July 2024 – January 2025 |
+
+**Distribution analysis**
+
+| Statistic | Meaning |
+|----------|---------|
+| **Mean LTV** | Average customer value (outlier-sensitive) |
+| **Median LTV** | Typical customer value |
+| **P90 LTV** | Threshold for top 10% highest-value customers |
+
+**Visualization encoding**
+
+| Element | Meaning |
+|--------|---------|
+| **X-axis** | Observed LTV per customer (IDR) |
+| **Y-axis** | Number of customers |
+| **Vertical lines** | Mean, Median, and P90 reference values |
+
+<p align="center">
+  <img src="images/Duitku_08_Observed_Customer_Value.png" width="85%">
+</p>
+
+#### Key Insights
+
+| Observation | Implication |
+|------------|-------------|
+| LTV distribution is heavily right-skewed | Revenue is concentrated among few customers |
+| Median LTV is far below mean LTV | Typical customers generate low value |
+| Top 10% (P90) contribute disproportionately | High dependency on high-value users |
+
+<br><br>
+---
+<br><br>

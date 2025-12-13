@@ -108,6 +108,28 @@ These features do not exist in the raw dataset—they were created to support co
 - Indicates strong early adoption but **weak usage sustainability**
 - Suggests growth driven by a short-term surge rather than durable retention
 
+---
+
+### 02 — Monthly Revenue and Performance Growth  
+**Business question:**  
+*Is platform revenue growing sustainably month-to-month, and where does momentum break?*
+
+#### Method
+- Aggregate monthly platform revenue using `fee_internal_amount`
+- Group transactions by `year_month`
+- Visualize:
+  - **Bars:** total monthly revenue (IDR)
+  - **Line:** month-over-month (MoM) revenue growth (capped to reduce distortion)
+
+<p align="center">
+  <img src="images/Duitku_02_Monthly_Revenue_Performance_and_Growth .png" width="85%">
+</p>
+
+#### Key Insights
+- Revenue **scaled rapidly from August to October**, peaking in October (~2.0B IDR)
+- **MoM growth spikes early**, then collapses after October
+- Revenue **drops sharply in November**, followed by weaker recovery
+- Growth turns **negative post-peak**, signaling loss of platform momentum
 
 
 

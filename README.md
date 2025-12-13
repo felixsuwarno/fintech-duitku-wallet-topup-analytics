@@ -468,3 +468,47 @@ These features do not exist in the raw dataset—they were created to support co
 <br><br>
 ---
 <br><br>
+
+### 13 - Monthly Forecasting for Transaction Volume
+**Business question:**  
+*Given recent performance trends, what is the expected short-term direction of platform usage?*
+
+#### Method
+- Aggregate monthly transaction volume using net_amount
+- Use historical data from July 2024 to January 2025
+- Fit a simple linear trend line to historical monthly volume
+- Extrapolate the trend to estimate next 1–3 months of volume
+- Treat results as directional context, not a predictive model
+
+<p align="center">
+  <img src="images/Duitku_13_Monthly_Forecasting_for_Transaction_Volume.png" width="85%">
+</p>
+
+Key Insights
+- Transaction volume follows a clear boom-and-bust pattern, peaking sharply in October before declining rapidly
+- The historical trend line slopes gently upward, driven by early growth rather than recent performance
+- Forecasted volume stabilizes well below the prior peak, indicating no mechanical return to high usage levels
+- Recent declines dominate short-term behavior, outweighing early launch momentum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

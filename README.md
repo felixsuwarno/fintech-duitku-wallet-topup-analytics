@@ -442,3 +442,29 @@ These features do not exist in the raw dataset—they were created to support co
 <br><br>
 ---
 <br><br>
+
+### 12 - Monthly Forecasting For Revenue
+**Business question:**  
+*Given recent performance trends, what is the expected short-term revenue trajectory?*
+
+#### Method
+- Aggregate monthly internal fee revenue using fee_internal_amount
+- Use historical monthly revenue (July 2024–January 2025) as the baseline
+- Fit a simple trend line to historical data to capture directional momentum
+- Generate a short-term forecast for the next 1–3 months
+- Treat the forecast as a planning range, not a precise prediction
+
+<p align="center">
+  <img src="images/Duitku_12_Monthly_Forecasting_for_Revenue.png" width="85%">
+</p>
+
+#### Key Insights
+
+- Historical revenue shows a clear rise-and-fall pattern, peaking in October before entering sustained decline
+- The trend line flattens despite early growth, indicating weakening structural momentum
+- Forecasted revenue stabilizes at a lower level, suggesting no automatic rebound without intervention
+- Projected growth is modest and linear, not a recovery to prior peak levels
+
+<br><br>
+---
+<br><br>

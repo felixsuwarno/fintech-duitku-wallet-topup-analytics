@@ -416,7 +416,7 @@ These features do not exist in the raw dataset—they were created to support co
 ---
 <br><br>
 
-### Current Customer Engagement Health (As of 2025-01)
+### 11 - Current Customer Engagement Health (As of 2025-01)
 **Business question:**  
 *What is the current engagement state of the customer base, and how exposed is the platform to near-term churn risk?*
 
@@ -427,3 +427,18 @@ These features do not exist in the raw dataset—they were created to support co
   - At-risk: last transaction 8–30 days
   - Inactive: last transaction > 30 days
 - Count customers per segment and compute percentage distribution
+
+<p align="center">
+  <img src="images/Duitku_11_Current_Customer_Engagement_Health.png" width="85%">
+</p>
+
+#### Key Insights
+
+- Only a small fraction of customers are currently active, indicating weak short-term engagement
+- A limited at-risk segment exists, suggesting most churn has already occurred rather than being imminent
+- The majority of customers are inactive, pointing to a large disengaged base with low reactivation likelihood
+- Engagement health is heavily skewed toward inactivity, not gradual decay
+
+<br><br>
+---
+<br><br>

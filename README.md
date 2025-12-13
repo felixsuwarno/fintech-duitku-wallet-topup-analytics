@@ -133,6 +133,36 @@ These features do not exist in the raw dataset—they were created to support co
 - Revenue **drops sharply in November**, followed by weaker recovery
 - Growth turns **negative post-peak**, signaling loss of platform momentum
 
+<br><br>
+---
+<br><br>
+
+## 03 — Revenue vs Transaction Volume  
+**Business question:**  
+*Is revenue growth driven by higher transaction volume, or by improved monetization efficiency?*
+
+#### Method
+- Aggregate monthly **transaction volume** using `net_amount`
+- Aggregate monthly **platform revenue** using `fee_internal_amount`
+- Group data by `year_month`
+- Visualize:
+  - **Bars:** total customer load / transaction volume (IDR)
+  - **Line:** platform revenue (IDR)
+
+<p align="center">
+  <img src="images/Duitku_03_Revenue_vs_Transaction_Volume.png" width="85%">
+</p>
+
+#### Key Insights
+- Revenue closely **tracks transaction volume** across all months
+- Peak revenue and volume both occur in **October**
+- Post-October decline shows **no monetization offset** (revenue falls with volume)
+- Indicates revenue is **volume-dependent**, not efficiency-driven
+
+#### Interpretation
+- Platform monetization is linear: more usage = more revenue
+- No evidence of pricing power or fee optimization during slowdown
+- Growth risk is high unless **retention or per-transaction value improves**
 
 
 

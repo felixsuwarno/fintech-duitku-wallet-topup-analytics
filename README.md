@@ -151,17 +151,42 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Revenue closely **tracks transaction volume** across all months
-- Peak revenue and volume both occur in **October**
-- Post-October decline shows **no monetization offset** (revenue falls with volume)
+- Revenue closely tracks transaction volume across all months
+- Both revenue and volume peak in October, then decline in tandem
+- Post-October slowdown shows no monetization offset — revenue falls as usage falls
 - Indicates revenue is **volume-dependent**, not efficiency-driven
 
-#### Interpretation
-- Platform monetization is linear: more usage = more revenue
-- No evidence of pricing power or fee optimization during slowdown
-- Growth risk is high unless **retention or per-transaction value improves**
+<br><br>
+---
+<br><br>
 
+# Growth Quality
 
+### 04 — Growth Quality: Acquisition vs Retention  
+**Business question:**  
+*Is platform growth driven by new user acquisition, or by retaining existing users over time?*
 
+#### Method
+- Classify customers each month:
+  - **New:** first-ever transaction occurs in that month
+  - **Returning:** customer has transacted in a prior month
+- Count distinct customers by type per `year_month`
+- Visualize:
+  - **Bars:** new customers
+  - **Stacked bars:** returning customers layered on top
+
+<p align="center">
+  <img src="images/Duitku_04_Growth_Quality_Acquisition_vs_Retention.png" width="85%">
+</p>
+
+#### Key Insights
+- Early growth (August–October) is **primarily acquisition-driven**
+- Returning customers increase into October but **never dominate total growth**
+- After October, **both acquisition and retention decline simultaneously**
+- Indicates weak growth quality: new users are **not converting into a stable returning base**
+
+<br><br>
+---
+<br><br>
 
 

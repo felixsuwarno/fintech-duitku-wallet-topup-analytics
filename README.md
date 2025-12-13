@@ -47,26 +47,30 @@ Full detailed data dictionary:
 
 <br>
 
+Fields / Columns that are un-necessary were deleted, leaving these :
+
 ## 📊 Key Fields (Compact Data Dictionary)
 
 These fields represent the core attributes used for cohort analysis, LTV modeling, customer segmentation, and revenue forecasting:
-
 | Field                       | Description                                                                  |
 |-----------------------------|------------------------------------------------------------------------------|
 | **id**                      | Unique internal transaction ID (primary key).                               |
-| **customer_id**             | Unique user identifier for segmentation, cohorts, and LTV.                  |
-| **reference_number**        | Payment processor transaction ID for each top-up.                           |
-| **net_amount**              | Total top-up value credited to the wallet (main revenue driver).            |
+| **customer_id**             | Unique customer identifier for segmentation, cohorts, and LTV.              |
+| **net_amount**              | Total top-up value credited to the wallet (transaction volume, not revenue).|
 | **fee_internal_amount**     | Platform’s internal fee revenue per transaction (used for LTV).             |
 | **fee_external_amount**     | Fee paid to banks/payment partners (reduces net revenue).                   |
 | **category**                | Bank/payment category used (BRI, BNI, Mandiri).                             |
-| **paying_at**               | Timestamp of payment completion (used for `year_month`, cohorts, forecasting). |
-| **channel**                 | Top-up channel (`DUITKU` payment gateway).                                  |
-| **created_at / updated_at** | System timestamps for record creation and updates.                           |
+| **transaction_date**        | Timestamp of completed top-up transaction (used for recency, cohorts, forecasting). |
+| **year_month**              | Derived monthly period (`YYYY-MM`) used for aggregation and trend analysis. |
+| **cohort_month**            | Derived field indicating the customer’s first transaction month (used for cohorts). |
+| **created_at**              | System timestamp for record creation.                                       |
+
 
 ---
 
 <br>
+
+From those, there are two helper columns generated : 
 
 ## 🔧 Derived Date Columns (Feature Engineering)
 

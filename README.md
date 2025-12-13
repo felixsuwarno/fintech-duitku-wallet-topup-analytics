@@ -224,21 +224,32 @@ These features do not exist in the raw dataset—they were created to support co
 *Which customer segments drive platform value, and how concentrated is usage?*
 
 #### Method
-- Compute per-customer metrics:
-  - **Top-up frequency          :** count of transactions (`id`)
-  - **Average top-up amount     :** mean of `net_amount`
-  - **Total top-up volume       :** sum of `net_amount`
-    
-- Segment customers by **total top-up volume percentiles**:
-  - **Whales                    :** Top 5%  
-  - **High Value                :** Next 15%  
-  - **Mass Market               :** Middle 60%  
-  - **Long Tail                 :** Bottom 20%  
 
-- Visualize:
-  - **X-axis                    :** top-up frequency  
-  - **Y-axis                    :** average top-up amount  
-  - **Bubble size + color       :** value segment
+**Per-customer metrics**
+
+| Metric | Definition |
+|------|-----------|
+| **Top-up frequency** | Count of transactions (`id`) |
+| **Average top-up amount** | Mean of `net_amount` |
+| **Total top-up volume** | Sum of `net_amount` |
+
+**Customer segmentation (by total top-up volume percentiles)**
+
+| Segment | Definition |
+|-------|------------|
+| **Whales** | Top 5% |
+| **High Value** | Next 15% |
+| **Mass Market** | Middle 60% |
+| **Long Tail** | Bottom 20% |
+
+**Visualization encoding**
+
+| Element | Meaning |
+|-------|--------|
+| **X-axis** | Top-up frequency |
+| **Y-axis** | Average top-up amount |
+| **Bubble size + color** | Value segment |
+
 
 <p align="center">
   <img src="images/Duitku_06_Customer_Value_and_Usage_Segmentation.png" width="85%">

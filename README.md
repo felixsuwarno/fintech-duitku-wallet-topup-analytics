@@ -189,4 +189,34 @@ These features do not exist in the raw dataset—they were created to support co
 ---
 <br><br>
 
+### 05 — Customer Retention Quality by Acquisition Period  
+**Business question:**  
+*How well do different acquisition cohorts retain customers over time, and how quickly does churn set in?*
+
+#### Method
+- Assign customers to a **cohort month** based on their first-ever transaction
+- Track customer activity month-by-month after acquisition
+- For each cohort and cohort age:
+  - Calculate **retention rate (%)**
+  - Count **active users**
+  - Sum **internal fee revenue**
+- Visualize results as a cohort heatmap:
+  - **Color:** retention percentage
+  - **Text:** users retained and revenue generated per cohort cell
+
+<p align="center">
+  <img src="images/Duitku_05_Customer_Retention_Quality_by_Acquisition_Period.png" width="85%">
+</p>
+
+#### Key Insights
+- Retention drops **sharply after Month 0** across all cohorts
+- Most cohorts retain **less than 20%** of users by Month 2–3
+- Later-month activity is driven by **very small user counts**, not broad engagement
+- Revenue persists briefly despite churn, indicating spend concentration among few survivors
+- No cohort shows sustained long-term retention strength
+
+- <br><br>
+---
+<br><br>
+
 

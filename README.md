@@ -93,16 +93,14 @@ These features do not exist in the raw dataset—they were created to support co
 **Business question:**  
 *How much money flows through the platform each month, and is usage momentum sustained?*
 
-<p align="center">
-  <img src="images/Duitku_01_Monthly_Platform_Usage_Volume .png" width="85%">
-</p>
-
-
-
 #### Method
 - Aggregate monthly wallet top-up volume (`net_amount`)
 - Group transactions by `year_month`
 - Measure total platform usage (not revenue)
+
+<p align="center">
+  <img src="images/Duitku_01_Monthly_Platform_Usage_Volume .png" width="85%">
+</p>
 
 #### Key Insights
 - Platform usage **ramped rapidly** from August to October, peaking in October (~3.4B IDR)

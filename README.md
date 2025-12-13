@@ -83,5 +83,30 @@ These analytical fields were engineered from the raw `paying_at` timestamp to en
 
 These features do not exist in the raw dataset—they were created to support cohort analysis, LTV modeling, revenue trends, and actionable business insights.
 
+## Platform Scale and Momentum
+
+### 01 — Monthly Platform Usage Volume  
+**Business question:**  
+*How much money flows through the platform each month, and is usage momentum sustained?*
+
+---
+![01 - Monthly Platform Usage Volume](images/01_monthly_platform_usage_volume.png)
+---
+
+#### Method
+- Aggregate monthly wallet top-up volume (`net_amount`)
+- Group transactions by `year_month`
+- Measure total platform usage (not revenue)
+
+---
+
+#### Key Insights
+- Platform usage **ramped rapidly** from August to October, peaking in October (~3.4B IDR)
+- Usage **declined consistently** from November through January
+- Indicates strong early adoption but **weak usage sustainability**
+- Suggests growth driven by a short-term surge rather than durable retention
+
+
+
 
 

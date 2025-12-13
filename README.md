@@ -43,8 +43,6 @@ The original dataset can be downloaded here:
 Full detailed data dictionary:  
 **[Full Data Dictionary](docs/data_dictionary_full.md)**
 
----
-
 <br>
 
 Fields / Columns that are un-necessary were deleted, leaving these :
@@ -64,9 +62,6 @@ These fields represent the core attributes used for cohort analysis, LTV modelin
 | **year_month**              | Derived monthly period (`YYYY-MM`) used for aggregation and trend analysis. |
 | **cohort_month**            | Derived field indicating the customer’s first transaction month (used for cohorts). |
 | **created_at**              | System timestamp for record creation.                                       |
-
-
----
 
 <br>
 

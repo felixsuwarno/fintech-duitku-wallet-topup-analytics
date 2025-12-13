@@ -215,8 +215,39 @@ These features do not exist in the raw dataset—they were created to support co
 - Revenue persists briefly despite churn, indicating spend concentration among few survivors
 - No cohort shows sustained long-term retention strength
 
-- <br><br>
+<br><br>
 ---
 <br><br>
+
+### 06 — Customer Value and Usage Segmentation  
+**Business question:**  
+*Which customer segments drive platform value, and how concentrated is usage?*
+
+#### Method
+- Compute per-customer metrics:
+  - **Top-up frequency** = count of transactions (`id`)
+  - **Average top-up amount** = mean of `net_amount`
+  - **Total top-up volume** = sum of `net_amount`
+- Segment customers by **total top-up volume percentiles**:
+  - **Whales:** Top 5%  
+  - **High Value:** Next 15%  
+  - **Mass Market:** Middle 60%  
+  - **Long Tail:** Bottom 20%  
+- Visualize:
+  - **X-axis:** top-up frequency  
+  - **Y-axis:** average top-up amount  
+  - **Bubble size + color:** value segment
+
+<p align="center">
+  <img src="images/Duitku_06_Customer_Value_and_Usage_Segmentation.png" width="85%">
+</p>
+
+#### Key Insights
+- Value is **highly concentrated**: a small share of customers sits far from the main cluster
+- **Whales (Top 5%)** show **both** higher frequency **and** higher average top-up size
+- Most customers cluster in the **low-frequency / low-average-topup** region (Mass + Long Tail)
+- High usage alone is not “whale” behavior — whales are **high usage + high ticket size**
+- Indicates **whale dependency risk** if top users churn
+
 
 

@@ -203,8 +203,9 @@ These features do not exist in the raw dataset—they were created to support co
 - Visualize results as a cohort heatmap:
   - **Color:** retention percentage
   - **Text:** users retained and revenue generated per cohort cell
+    
 <p align="center">
-  <img src="images/Duitku_05_Customer_Retention_Quality_by_Acquisition_Period.png" width="50vw">
+  <img src="images/Duitku_05_Customer_Retention_Quality_by_Acquisition_Period.png" width="85%">
 </p>
 
 #### Key Insights

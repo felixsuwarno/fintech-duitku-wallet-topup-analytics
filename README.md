@@ -134,7 +134,7 @@ These features do not exist in the raw dataset—they were created to support co
 ---
 <br><br>
 
-## 03 — Revenue vs Transaction Volume  
+### 03 — Revenue vs Transaction Volume  
 **Business question:**  
 *Is revenue growth driven by higher transaction volume, or by improved monetization efficiency?*
 

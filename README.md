@@ -223,7 +223,11 @@ These features do not exist in the raw dataset—they were created to support co
 **Business question:**  
 *Which customer segments drive platform value, and how concentrated is usage?*
 
+<br>
+
 #### Method
+
+<br>
 
 **Per-customer metrics**
 
@@ -254,6 +258,7 @@ These features do not exist in the raw dataset—they were created to support co
 | **Y-axis** | Average top-up amount |
 | **Bubble size + color** | Value segment |
 
+<br>
 
 <p align="center">
   <img src="images/Duitku_06_Customer_Value_and_Usage_Segmentation.png" width="85%">

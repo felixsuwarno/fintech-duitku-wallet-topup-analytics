@@ -93,7 +93,7 @@ These features do not exist in the raw dataset—they were created to support co
 **Business question:**  
 *How much money flows through the platform each month, and is usage momentum sustained?*
 
-![01 - Monthly Platform Usage Volume](images/Duitku_01_Monthly_Platform_Usage_Volume.png)
+![01 - Monthly Platform Usage Volume](./images/Duitku_01_Monthly_Platform_Usage_Volume.png)
 
 #### Method
 - Aggregate monthly wallet top-up volume (`net_amount`)
@@ -105,6 +105,7 @@ These features do not exist in the raw dataset—they were created to support co
 - Usage **declined consistently** from November through January
 - Indicates strong early adoption but **weak usage sustainability**
 - Suggests growth driven by a short-term surge rather than durable retention
+
 
 
 

@@ -124,7 +124,7 @@ These features do not exist in the raw dataset—they were created to support co
   - **Line:** month-over-month (MoM) revenue growth (capped to reduce distortion)
 
 <p align="center">
-  <img src="images/Duitku_02_Monthly_Revenue_Performance_and_Growth .png" width="85%">
+  <img src="images/Duitku_02_Monthly_Revenue_Performance_and_Growth.png" width="85%">
 </p>
 
 #### Key Insights

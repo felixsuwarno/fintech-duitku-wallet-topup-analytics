@@ -381,18 +381,37 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Early cohorts (July–September) show **strong cumulative value growth over time**
-- Later cohorts (November–January) exhibit **lower starting value and flatter growth curves**
-- Value accumulation **slows meaningfully for newer cohorts**, even at comparable cohort ages
-- Indicates **declining customer value quality at acquisition**, not just shorter observation windows
-
-#### Interpretation
-- Earlier growth periods acquired **higher-quality customers** with stronger long-term monetization
-- Later cohorts generate **less value per customer**, even when they remain active
-- Revenue weakness is driven by **both declining retention and declining per-customer value**
-- Scaling acquisition without improving customer quality increases **long-term revenue fragility**
+- Early cohorts (July–September) show strong cumulative value growth → higher-quality customers with durable long-term monetization
+- Later cohorts (November–January) start lower and grow flatter → customer value quality deteriorates at acquisition, not just from shorter observation windows
+- Value accumulation slows for newer cohorts at comparable ages → weaker monetization even when customers remain active
+- Revenue weakness reflects both retention and value decline → fewer customers stay and each retained customer is worth less
+- Scaling acquisition without quality control increases fragility → growth amplifies revenue risk instead of strengthening it
 
 <br><br>
 ---
 <br><br>
+
+### 10 — Bank Market Share Dynamics
+**Business question:**  
+*How does customer top-up volume shift across partner banks over time, and what does this reveal about channel dependency and risk?*
+
+#### Method
+- Aggregate monthly top-up volume using net_amount
+- Group transactions by year_month and bank category
+- Compute monthly market share (%) for each bank : Bank monthly volume / Total platform volume (that month)
+- Track market share changes over time for each bank partner
+
+ 
+<p align="center">
+  <img src="images/Duitku_10_Bank_Market_Share_Dynamics.png" width="85%">
+</p>
+
+#### Key Insights
+- Mandiri dominates at launch → early volume depended on a single bank, creating high channel concentration risk
+- Rapid bank share diversification → onboarding BRI & BNI reduced single-partner dependency and improved resilience
+- BRI becomes primary volume driver → indicates stronger customer preference, availability, or incentive effectiveness
+- BNI shows a mid-cycle spike then declines → volume likely driven by short-term campaigns, not sustained behavior
+- Post-October share reallocation → users switch banks rather than exit, signaling active channel choice over pure churn
+
+
 

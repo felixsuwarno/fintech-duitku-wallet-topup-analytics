@@ -170,7 +170,7 @@ These features do not exist in the raw dataset—they were created to support co
 - Classify customers each month:
   - **New:** first-ever transaction occurs in that month
   - **Returning:** customer has transacted in a prior month
-- Count distinct customers by type per `year_month`
+- Count distinct customers by classification per `year_month`
 - Visualize:
   - **Bars:** new customers
   - **Stacked bars:** returning customers layered on top

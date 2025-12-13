@@ -85,7 +85,9 @@ These features do not exist in the raw dataset—they were created to support co
 
 <br><br>
 
-#### Platform Scale and Momentum
+---
+
+# Platform Scale and Momentum
 
 ### 01 — Monthly Platform Usage Volume  
 **Business question:**  

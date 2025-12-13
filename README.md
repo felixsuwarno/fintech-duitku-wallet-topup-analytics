@@ -275,6 +275,47 @@ These features do not exist in the raw dataset—they were created to support co
 ---
 <br><br>
 
+### 07 — Revenue Concentration and Whale Dependency  
+**Business question:**  
+*How concentrated is platform revenue, and how dependent is the business on high-value (“whale”) customers?*
+
+#### Method
+
+**Revenue concentration analysis**
+
+| Step | Description |
+|-----|-------------|
+| 1 | Aggregate **total internal fee revenue** per customer (`fee_internal_amount`) |
+| 2 | Rank customers from **highest to lowest revenue contribution** |
+| 3 | Compute **cumulative % of customers** and **cumulative % of revenue** |
+| 4 | Plot a **Pareto (Lorenz) curve** to assess concentration |
+
+**Visualization encoding**
+
+| Element | Meaning |
+|--------|---------|
+| **X-axis** | Cumulative % of customers (sorted by revenue contribution) |
+| **Y-axis** | Cumulative % of total internal fee revenue |
+| **Curve** | Revenue concentration across the customer base |
+| **Dashed lines** | Reference points for Pareto threshold (e.g. 80% revenue) |
+
+<p align="center">
+  <img src="images/Duitku_07_Revenue_Concentration_and_Whale_Dependency.png" width="85%">
+</p>
+
+#### Key Insights
+
+| Observation | Implication |
+|------------|-------------|
+| ~**50.3% of customers generate 80% of revenue** | Revenue concentration is **moderate**, not extreme |
+| Platform does **not** exhibit a classic 80/20 Pareto pattern | Dependency is spread beyond a small whale group |
+| Top customers matter, but **mass + high-value users jointly drive revenue** | Business risk is lower than whale-heavy models |
+| Revenue curve smooths gradually, not sharply | Indicates healthier distribution than fintechs with pure whale reliance |
+
+<br><br>
+---
+<br><br>
+
 ### 08 — Observed Customer Value  
 **Business question:**  
 *How is customer value distributed across the user base, and how concentrated is platform revenue?*

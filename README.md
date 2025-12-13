@@ -94,7 +94,7 @@ These features do not exist in the raw dataset—they were created to support co
 *How much money flows through the platform each month, and is usage momentum sustained?*
 
 ---
-![01 - Monthly Platform Usage Volume](images/01_monthly_platform_usage_volume.png)
+![01 - Monthly Platform Usage Volume](images/Duitku_01_Monthly_Platform_Usage_Volume .png)
 ---
 
 #### Method

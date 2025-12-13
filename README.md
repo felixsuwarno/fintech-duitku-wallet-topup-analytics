@@ -107,8 +107,10 @@ These features do not exist in the raw dataset—they were created to support co
 - Usage **declined consistently** from November through January
 - Indicates strong early adoption but **weak usage sustainability**
 - Suggests growth driven by a short-term surge rather than durable retention
-
+- 
+<br><br>
 ---
+<br><br>
 
 ### 02 — Monthly Revenue and Performance Growth  
 **Business question:**  

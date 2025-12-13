@@ -128,10 +128,10 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Revenue **scaled rapidly from August to October**, peaking in October (~2.0B IDR)
-- **MoM growth spikes early**, then collapses after October
-- Revenue **drops sharply in November**, followed by weaker recovery
-- Growth turns **negative post-peak**, signaling loss of platform momentum
+- Early MoM growth is driven by launch effects, not durable momentum
+- Growth rate declines almost immediately after onboarding phase
+- Revenue peaks after momentum has already stalled
+- Negative MoM growth post-October confirms structural slowdown
 
 <br><br>
 ---

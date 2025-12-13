@@ -305,12 +305,11 @@ These features do not exist in the raw dataset—they were created to support co
 
 #### Key Insights
 
-| Observation | Implication |
-|------------|-------------|
-| ~**50.3% of customers generate 80% of revenue** | Revenue concentration is **moderate**, not extreme |
-| Platform does **not** exhibit a classic 80/20 Pareto pattern | Dependency is spread beyond a small whale group |
-| Top customers matter, but **mass + high-value users jointly drive revenue** | Business risk is lower than whale-heavy models |
-| Revenue curve smooths gradually, not sharply | Indicates healthier distribution than fintechs with pure whale reliance |
+- Revenue concentration is moderate, not extreme (~50.3% of customers generate 80% of revenue)
+- The platform does not follow a classic 80/20 Pareto pattern
+- Revenue is driven by both high-value and mass-market users
+- The revenue curve is smooth rather than sharply concentrated
+- Overall concentration risk is lower than in whale-heavy FinTech models
 
 <br><br>
 ---
@@ -352,11 +351,9 @@ These features do not exist in the raw dataset—they were created to support co
 
 #### Key Insights
 
-| Observation | Implication |
-|------------|-------------|
-| LTV distribution is heavily right-skewed | Revenue is concentrated among few customers |
-| Median LTV is far below mean LTV | Typical customers generate low value |
-| Top 10% (P90) contribute disproportionately | High dependency on high-value users |
+- LTV distribution is heavily right-skewed, indicating revenue concentration among a small subset of customers
+- Median LTV is far below the mean, showing that typical customers generate relatively low value
+- Top 10% of customers contribute disproportionately, creating meaningful dependence on high-value users
 
 <br><br>
 ---
@@ -381,11 +378,12 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Early cohorts (July–September) show strong cumulative value growth → higher-quality customers with durable long-term monetization
-- Later cohorts (November–January) start lower and grow flatter → customer value quality deteriorates at acquisition, not just from shorter observation windows
-- Value accumulation slows for newer cohorts at comparable ages → weaker monetization even when customers remain active
-- Revenue weakness reflects both retention and value decline → fewer customers stay and each retained customer is worth less
-- Scaling acquisition without quality control increases fragility → growth amplifies revenue risk instead of strengthening it
+
+- Early cohorts (July–September) show strong cumulative value growth, reflecting higher-quality customers with durable long-term monetization
+- Later cohorts (November–January) start lower and grow flatter, indicating declining customer value quality at acquisition rather than shorter observation windows
+- Value accumulation slows for newer cohorts at comparable ages, showing weaker monetization even when customers remain active
+- Revenue weakness reflects both retention and value decline, as fewer customers stay and each retained customer generates less value
+- Scaling acquisition without quality control increases fragility, amplifying revenue risk instead of strengthening long-term growth
 
 <br><br>
 ---
@@ -407,11 +405,11 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Mandiri dominates at launch → early volume depended on a single bank, creating high channel concentration risk
-- Rapid bank share diversification → onboarding BRI & BNI reduced single-partner dependency and improved resilience
-- BRI becomes primary volume driver → indicates stronger customer preference, availability, or incentive effectiveness
-- BNI shows a mid-cycle spike then declines → volume likely driven by short-term campaigns, not sustained behavior
-- Post-October share reallocation → users switch banks rather than exit, signaling active channel choice over pure churn
 
+- Mandiri dominates at launch, with early volume dependent on a single bank and elevated channel concentration risk
+- Bank share diversifies rapidly, as onboarding BRI and BNI reduces single-partner dependency and improves platform resilience
+- BRI becomes the primary volume driver, indicating stronger customer preference, availability, or incentive effectiveness
+- BNI shows a mid-cycle spike before declining, suggesting campaign-driven volume rather than sustained behavior
+- Post-October share reallocation across banks, as users switch channels instead of exiting, signaling active channel choice over pure churn
 
 

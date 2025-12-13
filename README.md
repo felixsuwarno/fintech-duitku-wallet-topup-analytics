@@ -361,3 +361,38 @@ These features do not exist in the raw dataset—they were created to support co
 <br><br>
 ---
 <br><br>
+
+### 09 — Customer Value Quality by Acquisition Period  
+**Business question:**  
+*Do customers acquired in different months generate similar long-term value, or does value quality deteriorate across cohorts?*
+
+#### Method
+- Assign each customer to a **cohort month** based on their first-ever transaction
+- For each cohort:
+  - Track **cumulative internal fee revenue per customer** over time
+  - Measure value progression by **cohort age (months since acquisition)**
+- Visualize:
+  - **X-axis:** cohort age (months since acquisition)
+  - **Y-axis:** cumulative customer value (internal fee revenue)
+  - **Lines:** acquisition cohorts (by cohort month)
+
+<p align="center">
+  <img src="images/Duitku_09_Customer_Value_Quality_by_Acquisition_Period.png" width="85%">
+</p>
+
+#### Key Insights
+- Early cohorts (July–September) show **strong cumulative value growth over time**
+- Later cohorts (November–January) exhibit **lower starting value and flatter growth curves**
+- Value accumulation **slows meaningfully for newer cohorts**, even at comparable cohort ages
+- Indicates **declining customer value quality at acquisition**, not just shorter observation windows
+
+#### Interpretation
+- Earlier growth periods acquired **higher-quality customers** with stronger long-term monetization
+- Later cohorts generate **less value per customer**, even when they remain active
+- Revenue weakness is driven by **both declining retention and declining per-customer value**
+- Scaling acquisition without improving customer quality increases **long-term revenue fragility**
+
+<br><br>
+---
+<br><br>
+

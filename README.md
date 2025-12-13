@@ -487,7 +487,7 @@ These features do not exist in the raw dataset—they were created to support co
 Key Insights
 - Transaction volume follows a clear boom-and-bust pattern, peaking sharply in October before declining rapidly
 - The historical trend line slopes gently upward, driven by early growth rather than recent performance
-- Forecasted volume stabilizes well below the prior peak, indicating no mechanical return to high usage levels
+- The forecast smooths past growth and recent decline, showing stabilization rather than a bounce back
 - Recent declines dominate short-term behavior, outweighing early launch momentum
 
 

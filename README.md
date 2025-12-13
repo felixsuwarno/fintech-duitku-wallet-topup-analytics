@@ -412,4 +412,18 @@ These features do not exist in the raw dataset—they were created to support co
 - BNI shows a mid-cycle spike before declining, suggesting campaign-driven volume rather than sustained behavior
 - Post-October share reallocation across banks, as users switch channels instead of exiting, signaling active channel choice over pure churn
 
+<br><br>
+---
+<br><br>
 
+### Current Customer Engagement Health (As of 2025-01)
+**Business question:**  
+*What is the current engagement state of the customer base, and how exposed is the platform to near-term churn risk?*
+
+#### Method
+- Define customer recency based on days since last transaction (as of January 2025)
+- Classify customers into engagement segments:
+  - Active: last transaction ≤ 7 days
+  - At-risk: last transaction 8–30 days
+  - Inactive: last transaction > 30 days
+- Count customers per segment and compute percentage distribution

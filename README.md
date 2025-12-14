@@ -450,6 +450,23 @@ These features do not exist in the raw dataset—they were created to support co
 - Do recent trends in transaction volume, active users, and revenue point to renewed growth or continued contraction?
 - Can simple trend-based extrapolation be trusted after a clear growth-to-decline shift?
 
+<p align="center">
+  <img src="images/Duitku_12a_Short_Term_Forecasting_for_Revenue.png" width="85%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/Duitku_12b_Short_Term_Forecasting_for_Transaction_Volume.png" width="85%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/Duitku_12c_Short_Term_Forecasting_for_Active_Users.png" width="85%">
+</p>
+
+<br>
 
 #### Key Insights
 

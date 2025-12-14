@@ -60,7 +60,7 @@ The goal is to support real-world FinTech decision-making with clear, data-drive
 
 The original dataset can be downloaded here:
 
-**[transactions.xlsx (Zenodo)](https://zenodo.org/records/17092322/files/transactions.xlsx?download=1)**
+**[transactions.xlsx (direct from Zenodo website)](https://zenodo.org/records/17092322/files/transactions.xlsx?download=1)**
 
 Full detailed data dictionary:  
 **[Full Data Dictionary](docs/data_dictionary_full.md)**

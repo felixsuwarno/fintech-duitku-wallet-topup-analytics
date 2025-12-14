@@ -443,57 +443,19 @@ These features do not exist in the raw dataset—they were created to support co
 ---
 <br><br>
 
-### 12 - Monthly Forecasting For Revenue
+### 12 - Short-Term Trend Diagnostics Across Core Metrics
+(Transaction Volume • Active Users • Revenue)
+
 **Business question:**  
-*Given recent performance trends, what is the expected short-term revenue trajectory?*
+- Do recent trends in transaction volume, active users, and revenue point to renewed growth or continued contraction?
+- Can simple trend-based extrapolation be trusted after a clear growth-to-decline shift?
 
-#### Method
-- Aggregate monthly internal fee revenue using fee_internal_amount
-- Use historical monthly revenue (July 2024–January 2025) as the baseline
-- Fit a simple trend line to historical data to capture directional momentum
-- Generate a short-term forecast for the next 1–3 months
-- Treat the forecast as a planning range, not a precise prediction
-
-<p align="center">
-  <img src="images/Duitku_12_Monthly_Forecasting_for_Revenue.png" width="85%">
-</p>
 
 #### Key Insights
 
-- Historical revenue shows a clear rise-and-fall pattern, peaking in October before entering sustained decline
-- The trend line flattens despite early growth, indicating weakening structural momentum
-- Forecasted revenue stabilizes at a lower level, suggesting no automatic rebound without intervention
-- Projected growth is modest and linear, not a recovery to prior peak levels
-
-<br><br>
----
-<br><br>
-
-### 13 - Monthly Forecasting for Transaction Volume
-**Business question:**  
-*Given recent performance trends, what is the expected short-term direction of platform usage?*
-
-#### Method
-- Aggregate monthly transaction volume using net_amount
-- Use historical data from July 2024 to January 2025
-- Fit a simple linear trend line to historical monthly volume
-- Extrapolate the trend to estimate next 1–3 months of volume
-- Treat results as directional context, not a predictive model
-
-<p align="center">
-  <img src="images/Duitku_13_Monthly_Forecasting_for_Transaction_Volume.png" width="85%">
-</p>
-
-Key Insights
-- Transaction volume follows a clear boom-and-bust pattern, peaking sharply in October before declining rapidly
-- The historical trend line slopes gently upward, driven by early growth rather than recent performance
-- The forecast smooths past growth and recent decline, showing stabilization rather than a bounce back
-- Recent declines dominate short-term behavior, outweighing early launch momentum
-
-
-
-
-
+- All three metrics follow the same pattern, with a sharp launch-driven rise followed by a sustained decline
+- Linear trend lines are dominated by early growth, failing to reflect the most recent downward momentum
+- With only ~6 months of data, trend-based forecasting provides little practical insight and should be treated as illustrative rather than actionable
 
 
 

@@ -1,28 +1,35 @@
 # FinTech “Duitku” Wallet Top-Up Analytics  
-**Customer Behavior • Cohorts • LTV • Revenue Forecasting**
-
-Python analysis of real **Duitku** digital wallet top-up transactions.  
-This project extracts behavioral insights, builds customer cohorts, models LTV, and forecasts monthly revenue.  
-An end-to-end FinTech analytics workflow built from raw transactions to business-ready insights.
+**Customer Behavior • LTV • Revenue Forecasting**
 
 ## How to read this project :
 This analysis is structured to move from overall platform performance, to customer retention and value, and finally to business risks and recommendations. Each section builds on the previous to explain why revenue declined and what actions matter most.
 
+## About this project :
+Python analysis of real **Duitku** digital wallet top-up transactions.  
+This project extracts behavioral insights, builds customer cohorts, models LTV, and forecasts monthly revenue.  
+It is an end-to-end FinTech analytics workflow built from raw transactions to business-ready insights.
+
 ## Limitations:
 This analysis is based on ~6 months of post-launch data. Results reflect early-stage behavior and should be revalidated as usage patterns stabilize.
 
-## Dataset Coverage:  
-Transactions in this dataset span **July 18, 2024 → January 24, 2025**, representing ~6 months of real digital wallet top-up activity. This rolling-window time range mirrors how FinTech companies typically analyze recent user behavior, revenue trends, and cohort performance.
+## Dataset:  
+- Transactions in this dataset span **July 18, 2024 → January 24, 2025**, representing ~6 months of real digital wallet top-up activity. This rolling-window time range mirrors how FinTech companies typically analyze recent user behavior, revenue trends, and cohort performance.
+- The dataset reflects real transaction-level behavior from a production digital wallet environment, anonymized and cleaned for analytical use.
 
 ## Executive Summary :
 
-- Platform usage and revenue grew rapidly after launch but declined steadily after October
-- Revenue moves in line with usage, indicating growth depends on active customers, not pricing changes
-- Most customers stop using the platform shortly after their first transaction
-- Later customer cohorts generate less value than earlier ones, even when active
+**Performance**
+- Platform usage and revenue grew rapidly post-launch, then declined steadily after October
+- Revenue tracks usage closely, indicating volume-driven economics rather than pricing effects
+
+**Customer Behavior**
+- Most customers churn shortly after their first transaction
+- Later cohorts generate less value than early cohorts, even when active
 - A small group of high-value users drives a meaningful share of revenue
-- The core business issue is weak early retention, not acquisition volume
-- Improving early engagement and protecting high-value users matters more than scaling new sign-ups
+
+**Core Business Issue**
+- Weak early retention, not acquisition volume, is the primary constraint on growth
+- Improving early engagement and protecting high-value users matters more than scaling sign-ups
 
 ---
 

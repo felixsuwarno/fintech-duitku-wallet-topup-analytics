@@ -444,7 +444,7 @@ These features do not exist in the raw dataset—they were created to support co
 <br><br>
 
 ### 12 - Short-Term Trend Diagnostics Across Core Metrics
-(Transaction Volume • Active Users • Revenue)
+(Revenue • Transaction Volume • Active Users)
 
 **Business question:**  
 - Do recent trends in transaction volume, active users, and revenue point to renewed growth or continued contraction?

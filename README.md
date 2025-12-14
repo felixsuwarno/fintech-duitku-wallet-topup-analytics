@@ -474,10 +474,66 @@ These features do not exist in the raw dataset—they were created to support co
 - Linear trend lines are dominated by early growth, failing to reflect the most recent downward momentum
 - With only ~6 months of data, trend-based forecasting provides little practical insight and should be treated as illustrative rather than actionable
 
+<br><br>
+---
+<br><br>
 
+### Recommendation 1 — Fix early customer drop-off before pushing growth
 
+**Charts used and why:**
+- Customer Retention Quality by Acquisition Period (Cohort heatmap)
+- Growth Quality: Acquisition vs Retention
 
+These charts show that most customers stop using the platform very quickly, often after their first month. Very few customers stay active long enough to matter for revenue.
 
+Action:
+Focus on getting new users to come back at least once or twice after their first top-up. Improve onboarding, reminders, and first-repeat incentives before spending more money on bringing in new users.
+
+<br><br>
+
+### Recommendation 2 — Slow down new user acquisition until retention improves
+
+**Charts used and why:**
+- Customer Value Quality by Acquisition Period
+- Growth Quality: Acquisition vs Retention
+
+Later customer groups generate less value per customer than earlier ones, even when they’ve been around for the same amount of time. This shows that adding more users right now does not automatically improve the business.
+
+Action:
+Reduce broad marketing spend and only keep acquisition channels that bring users who actually return. Measure success by repeat usage, not by sign-ups.
+
+<br><br>
+
+### Recommendation 3 — Protect high-value customers who drive a large share of revenue
+
+**Charts used and why:**
+- Customer Value and Usage Segmentation
+- Revenue Concentration (Pareto Curve)
+- Observed Customer Value Distribution
+  
+A relatively small group of customers generates a large portion of total revenue. Losing even a few of them would have an immediate impact on the business.
+
+**Action:**
+Identify customers who transact often or in large amounts and make their experience as smooth as possible. Prioritize reliability, support, and fewer friction points for these users.
+
+<br><br>
+
+### Recommendation 4 — Treat usage growth as the main revenue driver
+
+**Charts used and why:**
+- Revenue vs Transaction Volume
+- Monthly Platform Usage Volume
+- Monthly Revenue Performance
+
+Revenue rises and falls almost exactly with how much money flows through the platform. There is no sign that the platform earns more per transaction over time.
+
+**Action:**
+Focus on getting users to transact more often and stay active longer. Revenue will not recover unless usage recovers.
+
+<br><br>
+
+### Simple executive takeaway
+The business problem is not pricing or fees. It is that users do not stay active long enough. Improving early retention and protecting valuable customers matters more than adding new users.
 
 
 

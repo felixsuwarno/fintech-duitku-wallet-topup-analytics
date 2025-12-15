@@ -205,10 +205,11 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Early growth (August–October) is **primarily acquisition-driven**
-- Returning customers increase into October but **never dominate total growth**
-- After October, **both acquisition and retention decline simultaneously**
-- Indicates weak growth quality: new users are **not converting into a stable returning base**
+- Most of the early growth came from new users joining the platform.
+- Users who came back did increase for a while, but they never became the majority.
+- After October, both new sign-ups and returning usage dropped at the same time.
+- This shows that many new users tried the platform once but did not keep using it.
+- The platform did not build a steady base of repeat users.
 
 <br><br>
 ---
@@ -234,11 +235,11 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Retention drops **sharply after Month 0** across all cohorts
-- Most cohorts retain **less than 20%** of users by Month 2–3
-- Later-month activity is driven by **very small user counts**, not broad engagement
-- Revenue persists briefly despite churn, indicating spend concentration among few survivors
-- No cohort shows sustained long-term retention strength
+- Most customers stop using the platform soon after their first top-up.
+- By the second or third month, only a small fraction of users are still active.
+- Activity in later months comes from a very small group of users, not from most customers.
+- Revenue continues for a short time because a few remaining users spend more, not because many users stay.
+- No group of customers shows strong, long-lasting usage over time.
 
 <br><br>
 ---
@@ -290,11 +291,11 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Value is **highly concentrated**: a small share of customers sits far from the main cluster
-- **Whales (Top 5%)** show **both** higher frequency **and** higher average top-up size
-- Most customers cluster in the **low-frequency / low-average-topup** region (Mass + Long Tail)
-- High usage alone is not “whale” behavior — whales are **high usage + high ticket size**
-- Indicates **whale dependency risk** if top users churn
+- A small number of customers contribute much more value than the rest.
+- These high-value customers top up more often and in larger amounts.
+- Most customers use the platform only occasionally and with smaller top-ups.
+- Being a high-value customer requires both frequent use and large top-ups — not just one or the other.
+- Because so much value comes from a small group, losing a few of these customers would have a noticeable impact. if top users churn
 
 <br><br>
 ---
@@ -331,10 +332,10 @@ These features do not exist in the raw dataset—they were created to support co
 #### Key Insights
 
 - Revenue concentration is moderate, not extreme (~50.3% of customers generate 80% of revenue)
-- The platform does not follow a classic 80/20 Pareto pattern
-- Revenue is driven by both high-value and mass-market users
-- The revenue curve is smooth rather than sharply concentrated
-- Overall concentration risk is lower than in whale-heavy FinTech models
+- The platform does not follow a classic 80/20 Pareto pattern. About half of customers are responsible for most of the revenue, rather than only a small elite group.
+- Both higher-value customers and regular users play an important role in total revenue.
+- Revenue builds up gradually as more customers are included, instead of jumping sharply at the top.
+- This means the business is not overly dependent on only a handful of users.
 
 <br><br>
 ---
@@ -376,9 +377,12 @@ These features do not exist in the raw dataset—they were created to support co
 
 #### Key Insights
 
-- LTV distribution is heavily right-skewed, indicating revenue concentration among a small subset of customers
-- Median LTV is far below the mean, showing that typical customers generate relatively low value
-- Top 10% of customers contribute disproportionately, creating meaningful dependence on high-value users
+- Most customers generate a small amount of value.
+- A much smaller group of customers generates far more value than the average user.
+- The “typical” customer contributes relatively little compared to the top customers.
+- A meaningful share of total revenue comes from the top 10% of users.
+- This means the business depends more on high-value customers than on the average user.
+
 
 <br><br>
 ---
@@ -430,12 +434,11 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-
-- Mandiri dominates at launch, with early volume dependent on a single bank and elevated channel concentration risk
-- Bank share diversifies rapidly, as onboarding BRI and BNI reduces single-partner dependency and improves platform resilience
-- BRI becomes the primary volume driver, indicating stronger customer preference, availability, or incentive effectiveness
-- BNI shows a mid-cycle spike before declining, suggesting campaign-driven volume rather than sustained behavior
-- Post-October share reallocation across banks, as users switch channels instead of exiting, signaling active channel choice over pure churn
+- At launch, most transactions went through Mandiri, meaning the platform relied heavily on one bank at the start.
+- Over time, usage spread more evenly as BRI and BNI were added.
+- BRI eventually became the most used bank, suggesting customers found it easier or more attractive to use.
+- BNI saw a temporary increase in usage, but that increase did not last.
+- After October, the mix of transaction volume across banks changed, rather than declining evenly across all banks.
 
 <br><br>
 ---
@@ -495,9 +498,11 @@ These features do not exist in the raw dataset—they were created to support co
 
 #### Key Insights
 
-- All three metrics follow the same pattern, with a sharp launch-driven rise followed by a sustained decline
-- Linear trend lines are dominated by early growth, failing to reflect the most recent downward momentum
-- With only ~6 months of data, trend-based forecasting provides little practical insight and should be treated as illustrative rather than actionable
+- Usage, active customers, and revenue all follow the same pattern: a fast rise at the beginning, followed by a steady decline.
+- The early growth is so large that simple trend lines are pulled upward and do not reflect what is happening now.
+- Looking only at these trends makes the situation appear healthier than it really is.
+- Because the data covers only a short period of time, projecting future results from these trends would be unreliable.
+- These trends are useful for understanding direction, but not for making decisions on their own.
 
 <br><br>
 ---

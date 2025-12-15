@@ -122,10 +122,11 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Platform usage **ramped rapidly** from August to October, peaking in October (~3.4B IDR)
-- Usage **declined consistently** from November through January
-- Indicates strong early adoption but **weak usage sustainability**
-- Suggests growth driven by a short-term surge rather than durable retention
+- The amount of money flowing through the platform grew very quickly in the first few months.
+- Usage reached its highest point in October, when customers topped up about 3.4 billion IDR.
+- After October, usage dropped every month and did not recover.
+- This shows that many users tried the platform early on, but most did not keep using it.
+- The early growth came from many first-time users, not from customers continuing to use the platform over time.
   
 <br><br>
 ---
@@ -147,10 +148,11 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Early MoM growth is driven by launch effects, not durable momentum
-- Growth rate declines almost immediately after onboarding phase
-- Revenue peaks after momentum has already stalled
-- Negative MoM growth post-October confirms structural slowdown
+- Revenue increased quickly at the beginning, but that increase did not last.
+- The pace of growth slowed almost right away after the first few months.
+- Even though total revenue reached its highest point later, the business had already stopped gaining momentum by then.
+- After October, revenue began to shrink month after month.
+- This shows that the slowdown is not a one-time fluctuation, but a real change in direction.
 
 <br><br>
 ---
@@ -173,10 +175,11 @@ These features do not exist in the raw dataset—they were created to support co
 </p>
 
 #### Key Insights
-- Revenue closely tracks transaction volume across all months
-- Both revenue and volume peak in October, then decline in tandem
-- Post-October slowdown shows no monetization offset — revenue falls as usage falls
-- Indicates revenue is **volume-dependent**, not efficiency-driven
+- Revenue rises and falls together with how much money customers put into the platform.
+- Both total usage and revenue reach their highest point in October, then drop at the same time.
+- When usage goes down, revenue goes down as well.
+- There is no sign that the platform is earning more from each transaction over time.
+- This means revenue depends mainly on how active users are, not on higher fees or better pricing.
 
 <br><br>
 ---

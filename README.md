@@ -1,4 +1,4 @@
-# FinTech “Duitku” Wallet Top-Up Analytics  
+# FinTech “Duitku” Wallet Transaction Analytics  
 **Customer Behavior • LTV • Revenue Forecasting**
 
 ## How to read this project :

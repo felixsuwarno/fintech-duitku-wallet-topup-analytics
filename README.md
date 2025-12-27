@@ -1,6 +1,27 @@
 # FinTech “Duitku” Wallet Transaction Analytics  
 **Customer Behavior • LTV • Revenue Forecasting**
 
+📌 FinTech “Duitku” Wallet Analytics — 6-Month Post-Launch Diagnostics
+Analyzed real top-up transactions to understand usage decline after initial growth.
+
+➤ Core Issue Identified:
+Revenue contraction driven by retention failure, not pricing or fees.
+
+➤ Key Findings:
+• Usage + revenue peaked in Oct, dropped steadily after
+• Most users churn shortly after first transaction
+• Later cohorts show weaker value even when active
+• Revenue tracks volume directly (not monetization efficiency)
+
+🛠️ Skills Demonstrated:
+Cohorts, LTV, segmentation, revenue modeling, forecasting, retention analysis
+(Python, Pandas • fintech KPI thinking • business strategy alignment)
+
+🎯 Executive Outcome:
+Prioritize retention & onboarding over acquisition; protect high-value users; treat usage recovery as primary revenue driver.
+
+---
+
 ## How to read this project :
 This analysis is structured to move from overall platform performance, to customer retention and value, and finally to business risks and recommendations. Each section builds on the previous to explain why revenue declined and what actions matter most.
 

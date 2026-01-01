@@ -26,9 +26,11 @@ Prioritize retention & onboarding over acquisition; protect high-value users; tr
 This analysis is structured to move from overall platform performance, to customer retention and value, and finally to business risks and recommendations. Each section builds on the previous to explain why revenue declined and what actions matter most.
 
 ## About this project :
-Python analysis of real **Duitku** digital wallet top-up transactions.  
-This project extracts behavioral insights, builds customer cohorts, models LTV, and forecasts monthly revenue.  
-It is an end-to-end FinTech analytics workflow built from raw transactions to business-ready insights.
+Duitku is a FinTech payment and digital wallet platform headquartered in Jakarta, Indonesia, providing online payment processing and fund disbursement services for both businesses and consumers. As a licensed payment gateway and wallet solution, it supports a broad range of payment methods—including bank transfers, credit/debit cards, e-wallets, virtual accounts, and retail outlet payments—across the Indonesian market.
+
+Developed and operated by PT Kharisma Catur Mandala, Duitku holds official payment system licenses from Bank Indonesia, ensuring compliance with national financial regulations. The platform is widely used by Indonesian e-commerce companies, startups, SMEs, and enterprises to streamline digital transactions, automate payment flows, and support online business scaling.
+
+This project applies Python to analyze real Duitku digital wallet top-up transactions, uncovering behavioral insights, cohort trends, customer value patterns, and revenue trajectory. It includes cohort analysis, LTV modeling, segmentation, and monthly revenue forecasting, forming an end-to-end FinTech analytics workflow from raw transactional data to actionable business recommendations.
 
 ## Limitations:
 This analysis is based on ~6 months of post-launch data. Results reflect early-stage behavior and should be revalidated as usage patterns stabilize.
